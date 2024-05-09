@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="../Assets/css/Dashboard.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../Assets/img/icono2.png" type="image/x-icon">
+        <!-- Agregar jquery -->
+        <script src="../Asset/Library/node_modules/jquery/dist/jquery.js"></script>
+        <title>Inicio</title>
+   </head>
+    <body>
+        <div class="sidebar">
+            <div class="logo-details">
+                <div class="logo_name"><img src="../Assets/img/shop-svgrepo-com.svg" alt="" style="height: 40px;"></div>
+                <i class='bx bx-menu' id="btn" ></i>
+            </div>
+            <ul class="nav-list" id="dataPermission">
+                <span class="modulo">Hola</span>
+                <li>
+                    <a href="Board.html" target="workSpace">
+                       <i class='bx bxs-book-bookmark'></i>
+                        <span class="links_name">Dasboard</span>
+                    </a>
+                    <span class="tooltip">Inicio</span>
+                </li>
+                <li>
+                  <a href="prueba/Clientes.html" target="workSpace">
+                      <i class='bx bxs-user'></i>
+                      <span class="links_name">Clientes</span>
+                  </a>
+                  <span class="tooltip">Clientes</span>
+              </li>
+                <li>
+                    <a href="prueba/Productos.html" target="workSpace">
+                        <i class='bx bxs-book'></i>
+                        <span class="links_name">Productos</span>
+                    </a>
+                    <span class="tooltip">Productos</span>
+                </li>
+
+                <li>
+                    <a href="prueba/Ventas.html" target="workSpace">
+                        <i class='bx bx-bookmark-alt-minus'></i>
+                        <span class="links_name">Ventas</span>
+                    </a>
+                    <span class="tooltip">Ventas</span>
+                </li>
+                <li class="profile">
+                    <div class="profile-details">
+                        <img src="../Assets/img/user-1.png" alt="profileImg">
+                       
+                        
+                    </div>
+
+                    
+                </li>
+            </ul>
+        </div>
+       <iframe src="Board.html" class="home-section" id="workSpace" name="workSpace" frameborder="0"></iframe>
+        
+    </body>
+    <script src="../Js/Dashboard.js"></script>
+</html>
+<script>
+    //loadPermission();
+</script>

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Neucha', cursive;
+}
+
+body{
+    background: #ffffff;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.headData{
+    color: #B23232;
+}
+
+.form-group{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.form-group .form-label{
+    font-size: 22px;
+}
+
+.form-group .campos input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.form-group .campos select{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.buttonData{
+    margin-left: 100px;
+    margin-top: -70px;
+}
+.buttonData button{
+    margin-left: 30px;
+    width: 122px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.527);
+    cursor: pointer;
+    color: #fff;
+}
+
+.buttonData button:hover{
+    transform: scale(1.02);
+}
+
+.buttonData #btnAdd{
+    background: #B23232;
+}
+
+.buttonData #btnUpdate{
+    background: lightslategray;
+}
+
+.buttonData #btnConsult{
+    background: black;
+}
+
+
+.table { 
+    border-collapse: collapse; 
+    margin: 2px -20px; 
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    font-family: sans-serif; 
+    min-width: 400px; /* Ancho mínimo más reducido */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+}
+
+
+
+.table td{
+    padding: 10px;
+    vertical-align: top;
+}
+
+.table thead tr { 
+    background-color: #B23232; 
+    color: #ffffff; 
+    text-align: middle; 
+}
+
+.table th, .table td { 
+    padding: 12px 15px; 
+    font-weight: 500;
+}
+
+.table tbody tr { 
+    border-bottom: 1px solid #dddddd; 
+    text-align: center;
+} 
+
+.table tbody tr:nth-of-type(even) { 
+    background-color: #e4e4e4; 
+} 
+    
+.table tbody tr:last-of-type { 
+    border-bottom: 2px solid #c5b800;
+}
+
+.btnDelete{
+    width: 40px;
+    height: 40px;
+    background: #ff0f08;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 100;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btnEdit{
+    width: 40px;
+    height: 40px;
+    background: #0888ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 100;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btnDelete:hover{
+    transform: scale(1.03);
+}
+
+.btnDelete:active{
+    transform: scale(0.98);
+}
+.upa {
+    font-size: 10px;
+    position: fixed; /* Hace que el elemento sea independiente y se muestre encima de todo */
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    left: 10%; /* Ajusta la distancia desde el borde izquierdo */
+    padding: 20px;
+    z-index: 9999; /* Asegura que esté encima de otros elementos */
+}
+
+.upa-input {
+    margin-left:50% ; /* Ajusta el margen izquierdo del input */
+    font-size: 16px; /* Tamaño de fuente más grande para el input */
+    padding: 10px; /* Reducción del relleno para evitar que el texto se solape */
+    width: 200px; /* Ancho de la caja de texto */
+}
+.resultData{
+    margin-left: 20%;
+    margin-right: 9px;
+    margin-top: 80px;  
+}
+
+.container {
+    margin-top: 50px;
+}
+.table-responsive {
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
